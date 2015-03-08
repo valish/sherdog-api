@@ -1,0 +1,30 @@
+{
+  "name": "sherdog",
+  "version": "0.1.1",
+  "description": "Sherdog MMA Fighter API scraper in Node.js",
+  "main": "lib/sherdog",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sherdog",
+    "Fighter",
+    "MMA",
+    "API",
+    "Javascript"
+  ],
+  "author": {
+    "name": "Andrew Valish",
+    "email": "andrew@vali.sh",
+    "url": "http://vali.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valish/sherdog-api.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.53.0"
+  }
+}
