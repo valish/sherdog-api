@@ -1,7 +1,7 @@
 
-# sherdog-api
+# Sherdog MMA Fighter API
 
-Retrieves fighter information from Sherdog URL
+Crawls and parses fighter profile data from Sherdog URL
 
 ## Installation
 From source:
@@ -25,16 +25,14 @@ From npm:
 > {
     "name": "Matt Riddle",
     "nickname": "Deep Waters",
-    "bio": {
-        "age": "29",
-        "birthday": "1986-01-14",
-        "locality": "Lehighton, Pennsylvania",
-        "nationality": "United States",
-        "association": "Throwdown",
-        "height": "6'1\"",
-        "weight": "170 lbs",
-        "weight_class": "Welterweight"
-    },
+    "age": "29",
+    "birthday": "1986-01-14",
+    "locality": "Lehighton, Pennsylvania",
+    "nationality": "United States",
+    "association": "Throwdown",
+    "height": "6'1\"",
+    "weight": "170 lbs",
+    "weight_class": "Welterweight",
     "record": {
         "wins": {
             "total": 8,
