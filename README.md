@@ -23,60 +23,80 @@ From npm:
     console.log(data);
   })
 > {
-    "name":"Matt Riddle",
-    "nickname":"Deep Waters",
+    "name": "Matt Riddle",
+    "nickname": "Deep Waters",
     "bio": {
-      "age":"29",
-      "birthday":"1986-01-14",
-      "locality":"Lehighton, Pennsylvania",
-      "nationality":"United States",
-      "association":"Throwdown",
-      "height":"6'1\"",
-      "weight":"170 lbs",
-      "weight_class":"Welterweight"
+        "age": "29",
+        "birthday": "1986-01-14",
+        "locality": "Lehighton, Pennsylvania",
+        "nationality": "United States",
+        "association": "Throwdown",
+        "height": "6'1\"",
+        "weight": "170 lbs",
+        "weight_class": "Welterweight"
     },
     "record": {
-      "wins": {
-        "total":"8",
-        "knockouts": {
-          "total":"1",
-          "percent":"13"
+        "wins": {
+            "total": 8,
+            "knockouts": 1,
+            "submissions": 1,
+            "decisions": 5,
+            "others": 1
         },
-        "submissions": {
-          "total":"1",
-          "percent":"13"
+        "losses": {
+            "total": 3,
+            "knockouts": 1,
+            "submissions": 0,
+            "decisions": 2,
+            "others": 0
         },
-        "decisions": {
-          "total":"5",
-          "percent":"63"
-        },
-        "others": {
-          "total":"1",
-          "percent":"13"
-        }
-      },
-      "losses": {
-        "total":"3",
-        "knockouts": {
-          "total":"1",
-          "percent":"33"
-        },
-        "submissions": {
-          "total":"0",
-          "percent":"0"
-        },
-        "decisions": {
-          "total":"2",
-          "percent":"67"
-        },
-        "others": {
-          "total":"",
-          "percent":""
-        }
-      },
-      "no_contests":"2"
+        "no_contests": 2
     },
-    "fights":[]
+    "fights": [
+        {
+            "name": "TFC 27 - Titan Fighting Championship 27",
+            "date": "Feb / 28 / 2014",
+            "url": "/events/TFC-27-Titan-Fighting-Championship-27-35101",
+            "result": "win",
+            "method": "Submission (Guillotine Choke)",
+            "referee": "David Clifton",
+            "round": "2",
+            "time": "2:29",
+            "opponent": {
+                "name": "Michael Kuiper",
+                "url": "/fighter/Michael-Kuiper-42901"
+            }
+        },
+        {
+            "name": "UFC on Fuel TV 7 - Barao vs. McDonald",
+            "date": "Feb / 16 / 2013",
+            "url": "/events/UFC-on-Fuel-TV-7-Barao-vs-McDonald-26459",
+            "result": "NC",
+            "method": "NC (Overturned by Commission)",
+            "referee": "Kevin Mulhall",
+            "round": "3",
+            "time": "5:00",
+            "opponent": {
+                "name": "Che Mills",
+                "url": "/fighter/Che-Mills-8800"
+            }
+        },
+        {
+            "name": "UFC 154 - St. Pierre vs. Condit",
+            "date": "Nov / 17 / 2012",
+            "url": "/events/UFC-154-St-Pierre-vs-Condit-21047",
+            "result": "win",
+            "method": "Decision (Unanimous)",
+            "referee": "Yves Lavigne",
+            "round": "3",
+            "time": "5:00",
+            "opponent": {
+                "name": "John Maguire",
+                "url": "/fighter/John-Maguire-15574"
+            }
+        }
+        // ... 
+    ]
   }
 ```
 
