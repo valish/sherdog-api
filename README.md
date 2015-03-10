@@ -33,23 +33,21 @@ From npm:
     "height": "6'1\"",
     "weight": "170 lbs",
     "weight_class": "Welterweight",
-    "record": {
-        "wins": {
-            "total": 8,
-            "knockouts": 1,
-            "submissions": 1,
-            "decisions": 5,
-            "others": 1
-        },
-        "losses": {
-            "total": 3,
-            "knockouts": 1,
-            "submissions": 0,
-            "decisions": 2,
-            "others": 0
-        },
-        "no_contests": 2
+    "wins": {
+        "total": 8,
+        "knockouts": 1,
+        "submissions": 1,
+        "decisions": 5,
+        "others": 1
     },
+    "losses": {
+        "total": 3,
+        "knockouts": 1,
+        "submissions": 0,
+        "decisions": 2,
+        "others": 0
+    },
+    "no_contests": 2,
     "fights": [
         {
             "name": "TFC 27 - Titan Fighting Championship 27",
@@ -60,10 +58,7 @@ From npm:
             "referee": "David Clifton",
             "round": "2",
             "time": "2:29",
-            "opponent": {
-                "name": "Michael Kuiper",
-                "url": "/fighter/Michael-Kuiper-42901"
-            }
+            "opponent": "Michael Kuiper"
         },
         {
             "name": "UFC on Fuel TV 7 - Barao vs. McDonald",
@@ -74,10 +69,7 @@ From npm:
             "referee": "Kevin Mulhall",
             "round": "3",
             "time": "5:00",
-            "opponent": {
-                "name": "Che Mills",
-                "url": "/fighter/Che-Mills-8800"
-            }
+            "opponent": "Che Mills"
         },
         {
             "name": "UFC 154 - St. Pierre vs. Condit",
@@ -88,10 +80,7 @@ From npm:
             "referee": "Yves Lavigne",
             "round": "3",
             "time": "5:00",
-            "opponent": {
-                "name": "John Maguire",
-                "url": "/fighter/John-Maguire-15574"
-            }
+            "opponent": "John Maguire"
         }
         // ... 
     ]
