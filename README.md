@@ -1,7 +1,9 @@
 
-# Sherdog MMA Fighter API
+# Sherdog Fighter API
 
 Crawls and parses fighter profile data from Sherdog URL
+
+*This api is used in the higher-level [MMA API](https://github.com/valish/mma-api).
 
 ## Installation
 From source:
