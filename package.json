@@ -1,6 +1,6 @@
 {
   "name": "sherdog",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Sherdog MMA Fighter API scraper in Node.js",
   "main": "lib/sherdog",
   "scripts": {
