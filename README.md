@@ -35,6 +35,7 @@ From npm:
     "height": "6'1\"",
     "weight": "170 lbs",
     "weight_class": "Welterweight",
+	"image": "",
     "wins": {
         "total": 8,
         "knockouts": 1,
