@@ -1,6 +1,6 @@
 {
-  "name": "sherdog",
-  "version": "0.1.10",
+  "name": "api_super_lutas",
+  "version": "1.1.2",
   "description": "Sherdog MMA Fighter API scraper in Node.js",
   "main": "lib/sherdog",
   "scripts": {
@@ -14,13 +14,13 @@
     "Javascript"
   ],
   "author": {
-    "name": "Andrew Valish",
-    "email": "andrew@vali.sh",
-    "url": "http://vali.sh"
+    "name": "Marcos Stevanini",
+    "email": "marcosstevanini@gmail.com",
+    "url": "https://github.com/MarcosStevanini/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Valish/sherdog-api.git"
+    "url": "git+https://github.com/MarcosStevanini/sherdog-api.git"
   },
   "license": "MIT",
   "dependencies": {
